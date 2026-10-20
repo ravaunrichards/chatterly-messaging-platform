@@ -1,0 +1,10 @@
+{
+  "name": "chatterly-messaging-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Independent responsive real-time messaging starter with accounts, direct chats, groups and attachments.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "test": "node --test", "check": "node --check server.js && node --check public/app.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "express": "^4.21.2", "socket.io": "^4.8.1", "multer": "^1.4.5-lts.1" }
+}
